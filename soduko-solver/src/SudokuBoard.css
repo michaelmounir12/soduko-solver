@@ -1,0 +1,22 @@
+.sudoku-board {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+    border: 1px solid #ccc;
+  }
+  .error{
+    color: red;
+    font-size: large;
+    
+  }
